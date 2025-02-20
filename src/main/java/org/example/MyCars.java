@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class MyCars {
     private String name;
+    private String color;
     private Car car;
 
     public MyCars() {}
@@ -26,6 +27,12 @@ public class MyCars {
 
     public void setCar(Car car) {
         this.car = car;
+    }
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
     }
 }
 

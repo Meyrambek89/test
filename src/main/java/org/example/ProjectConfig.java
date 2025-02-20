@@ -11,6 +11,7 @@ public class ProjectConfig {
     public Car car() {
         Car car = new Car();
         car.setName("Lexus");
+        car.setYear(2023);
         return car;
     }
 
@@ -18,6 +19,7 @@ public class ProjectConfig {
     public Car car2() {
         Car car = new Car();
         car.setName("Mercedes");
+        car.setYear(2019);
         return car;
     }
 
@@ -25,6 +27,7 @@ public class ProjectConfig {
     public Car car3() {
         Car car = new Car();
         car.setName("Toyota");
+        car.setYear(2017);
         return car;
     }
 
@@ -32,6 +35,7 @@ public class ProjectConfig {
     public MyCars myCars(Car car) {
         MyCars myCars = new MyCars(car);
         myCars.setName("Es250");
+        myCars.setColor("White");
         return myCars;
     }
 
